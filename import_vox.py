@@ -40,7 +40,7 @@ def importVox(path):
                 MyCube = c4d.BaseObject(c4d.Oinstance)
                 MyCube[c4d.INSTANCEOBJECT_RENDERINSTANCE]=True
                 MyCube[c4d.INSTANCEOBJECT_LINK]=BaseCube
-                MyCube.SetAbsPos(c4d.Vector(voxel[1]*200,voxel[2]*200,voxel[0]*200))
+                MyCube.SetAbsPos(c4d.Vector(-voxel[1]*200,voxel[2]*200,voxel[0]*200))
                 
                 #update material list, generate new material only if it isn't in the list yet
                 matid = voxel[3]
