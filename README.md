@@ -1,5 +1,5 @@
 # ImportVOX
-Import Script for MagicaVoxel .VOX Files into Cinema 4D
+Import Script for MagicaVoxel https://ephtracy.github.io/ .VOX Files into Cinema 4D
 
 Instructions:
 
